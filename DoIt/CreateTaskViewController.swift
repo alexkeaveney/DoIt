@@ -18,7 +18,6 @@ class CreateTaskViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     
@@ -27,7 +26,7 @@ class CreateTaskViewController: UIViewController {
         //Create a task from the outlet information
         
         let task = Task()
-        task.name = nameField.text
+        task.name = nameField.text!
         task.important = importantSwitch.isOn
         
         //Add new task to task array in previous view controller

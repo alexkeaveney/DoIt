@@ -15,6 +15,7 @@
 		842C48911EC4C59A00C31897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842C488F1EC4C59A00C31897 /* LaunchScreen.storyboard */; };
 		842C48991EC4C8B900C31897 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C48981EC4C8B900C31897 /* Task.swift */; };
 		842C489B1EC4CE0E00C31897 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C489A1EC4CE0E00C31897 /* CreateTaskViewController.swift */; };
+		847D94901EC4D88D0029E5EE /* DeleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D948F1EC4D88D0029E5EE /* DeleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		842C48921EC4C59A00C31897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842C48981EC4C8B900C31897 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		842C489A1EC4CE0E00C31897 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		847D948F1EC4D88D0029E5EE /* DeleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				842C48831EC4C59A00C31897 /* AppDelegate.swift */,
 				842C48851EC4C59A00C31897 /* TasksViewController.swift */,
 				842C489A1EC4CE0E00C31897 /* CreateTaskViewController.swift */,
+				847D948F1EC4D88D0029E5EE /* DeleteTaskViewController.swift */,
 				842C48871EC4C59A00C31897 /* Main.storyboard */,
 				842C488D1EC4C59A00C31897 /* Assets.xcassets */,
 				842C488F1EC4C59A00C31897 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847D94901EC4D88D0029E5EE /* DeleteTaskViewController.swift in Sources */,
 				842C48991EC4C8B900C31897 /* Task.swift in Sources */,
 				842C488C1EC4C59A00C31897 /* DoIt.xcdatamodeld in Sources */,
 				842C48861EC4C59A00C31897 /* TasksViewController.swift in Sources */,
@@ -316,6 +320,7 @@
 				842C48971EC4C59A00C31897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
